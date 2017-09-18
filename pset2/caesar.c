@@ -21,7 +21,7 @@ int main(int argc, string argv[])
             string code = get_string();
             for (int i = 0, n = strlen(code); i < n; i++)
                 {
-                if islower(code[i])
+                 if islower(code[i])
                     printf("%c", (((code[i] + k) - 97) % 26) + 97);
                 else if isupper(code[i])
                     printf("%c", (((code[i] + k) - 65) % 26) + 65);
